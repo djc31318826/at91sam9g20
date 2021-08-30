@@ -1,0 +1,646 @@
+Archive member included because of file (symbol)
+
+/work/tools/arm-2012.09/bin/../lib/gcc/arm-none-eabi/4.7.2/libgcc.a(_udivsi3.o)
+                              obj/dbgu.o (__aeabi_uidiv)
+/work/tools/arm-2012.09/bin/../lib/gcc/arm-none-eabi/4.7.2/libgcc.a(_dvmd_tls.o)
+                              /work/tools/arm-2012.09/bin/../lib/gcc/arm-none-eabi/4.7.2/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+
+Discarded input sections
+
+ .data          0x00000000        0x0 obj/board_cstartup.o
+ .bss           0x00000000        0x0 obj/board_cstartup.o
+ .data          0x00000000        0x0 obj/cp15_asm.o
+ .bss           0x00000000        0x0 obj/cp15_asm.o
+ .text          0x00000000        0x0 obj/main.o
+ .data          0x00000000        0x0 obj/main.o
+ .bss           0x00000000        0x0 obj/main.o
+ .text          0x00000000        0x0 obj/pio.o
+ .data          0x00000000        0x0 obj/pio.o
+ .bss           0x00000000        0x0 obj/pio.o
+ .text.PIO_Set  0x00000000        0xc obj/pio.o
+ .text.PIO_Clear
+                0x00000000        0xc obj/pio.o
+ .text.PIO_Get  0x00000000       0x30 obj/pio.o
+ .text.PIO_GetOutputDataStatus
+                0x00000000       0x18 obj/pio.o
+ .text.PIO_GetISR
+                0x00000000        0xc obj/pio.o
+ .text          0x00000000        0x0 obj/aic.o
+ .data          0x00000000        0x0 obj/aic.o
+ .bss           0x00000000        0x0 obj/aic.o
+ .debug_abbrev  0x00000000       0xd2 obj/aic.o
+ .debug_info    0x00000000      0x25c obj/aic.o
+ .debug_line    0x00000000       0xbd obj/aic.o
+ .text.AIC_ConfigureIT
+                0x00000000       0x3c obj/aic.o
+ .text.AIC_EnableIT
+                0x00000000       0x14 obj/aic.o
+ .text.AIC_DisableIT
+                0x00000000       0x14 obj/aic.o
+ .debug_frame   0x00000000       0x48 obj/aic.o
+ .debug_loc     0x00000000       0x32 obj/aic.o
+ .debug_pubnames
+                0x00000000       0x49 obj/aic.o
+ .debug_aranges
+                0x00000000       0x30 obj/aic.o
+ .debug_ranges  0x00000000       0x28 obj/aic.o
+ .debug_str     0x00000000      0x16f obj/aic.o
+ .comment       0x00000000       0x2a obj/aic.o
+ .ARM.attributes
+                0x00000000       0x2e obj/aic.o
+ .text          0x00000000        0x0 obj/board_memories.o
+ .data          0x00000000        0x0 obj/board_memories.o
+ .bss           0x00000000        0x0 obj/board_memories.o
+ .text.BOARD_RemapRom
+                0x00000000       0x10 obj/board_memories.o
+ .text.BOARD_ConfigureNandFlash
+                0x00000000       0x78 obj/board_memories.o
+ .text.BOARD_ConfigureNandFlash48MHz
+                0x00000000       0x78 obj/board_memories.o
+ .text.BOARD_ConfigureNorFlash48MHz
+                0x00000000       0x74 obj/board_memories.o
+ .text.BOARD_ConfigureSdram48MHz
+                0x00000000      0x178 obj/board_memories.o
+ .text          0x00000000        0x0 obj/board_lowlevel.o
+ .data          0x00000000        0x0 obj/board_lowlevel.o
+ .bss           0x00000000        0x0 obj/board_lowlevel.o
+ .text          0x00000000        0x0 obj/stdio.o
+ .bss           0x00000000        0x0 obj/stdio.o
+ .text.PutChar  0x00000000        0xc obj/stdio.o
+ .text.PutString
+                0x00000000       0x30 obj/stdio.o
+ .text.sprintf  0x00000000       0x3c obj/stdio.o
+ .text.fprintf  0x00000000       0x3c obj/stdio.o
+ .text.snprintf
+                0x00000000       0x3c obj/stdio.o
+ .text          0x00000000        0x0 obj/string.o
+ .data          0x00000000        0x0 obj/string.o
+ .bss           0x00000000        0x0 obj/string.o
+ .text.memset   0x00000000       0x90 obj/string.o
+ .text.strchr   0x00000000       0x34 obj/string.o
+ .text.strlen   0x00000000       0x28 obj/string.o
+ .text.strrchr  0x00000000       0x28 obj/string.o
+ .text.strcpy   0x00000000       0x28 obj/string.o
+ .text.strncmp  0x00000000       0x68 obj/string.o
+ .text.strncpy  0x00000000       0x54 obj/string.o
+ .text          0x00000000        0x0 obj/dbgu.o
+ .data          0x00000000        0x0 obj/dbgu.o
+ .bss           0x00000000        0x0 obj/dbgu.o
+ .text.DBGU_PutChar
+                0x00000000       0x2c obj/dbgu.o
+ .text.DBGU_IsRxReady
+                0x00000000       0x10 obj/dbgu.o
+ .text.DBGU_GetChar
+                0x00000000       0x20 obj/dbgu.o
+ .text.fputc    0x00000000       0x58 obj/dbgu.o
+ .text          0x00000000        0x0 obj/trace.o
+ .data          0x00000000        0x0 obj/trace.o
+ .bss           0x00000000        0x0 obj/trace.o
+ .debug_abbrev  0x00000000       0x33 obj/trace.o
+ .debug_info    0x00000000       0x76 obj/trace.o
+ .debug_line    0x00000000       0x1d obj/trace.o
+ .debug_str     0x00000000       0xed obj/trace.o
+ .comment       0x00000000       0x2a obj/trace.o
+ .ARM.attributes
+                0x00000000       0x2c obj/trace.o
+ .text          0x00000000        0x0 obj/util.o
+ .data          0x00000000        0x0 obj/util.o
+ .bss           0x00000000        0x0 obj/util.o
+ .text.UTIL_DbguGetHexa32
+                0x00000000       0xd8 obj/util.o
+ .text.UTIL_DbguGetInteger
+                0x00000000       0xe4 obj/util.o
+ .text.UTIL_DbguGetIntegerMinMax
+                0x00000000       0xa4 obj/util.o
+ .text          0x00000000        0x0 obj/BootNor.o
+ .data          0x00000000        0x0 obj/BootNor.o
+ .bss           0x00000000        0x0 obj/BootNor.o
+ .text          0x00000000        0x0 obj/cp15.o
+ .data          0x00000000        0x0 obj/cp15.o
+ .bss           0x00000000        0x0 obj/cp15.o
+ .text.CP15_Is_DCacheEnabled
+                0x00000000       0x20 obj/cp15.o
+ .text.CP15_Is_MMUEnabled
+                0x00000000       0x20 obj/cp15.o
+ .text.CP15_Is_I_CacheEnabled
+                0x00000000       0x24 obj/cp15.o
+ .text.CP15_Disable_D_Cache
+                0x00000000       0x68 obj/cp15.o
+ .text.CP15_Enable_D_Cache
+                0x00000000       0x9c obj/cp15.o
+ .text.CP15_DisableMMU
+                0x00000000       0x68 obj/cp15.o
+ .text.CP15_EnableMMU
+                0x00000000       0x68 obj/cp15.o
+ .text.CP15_Disable_I_Cache
+                0x00000000       0x68 obj/cp15.o
+ .data          0x00000000        0x0 /work/tools/arm-2012.09/bin/../lib/gcc/arm-none-eabi/4.7.2/libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 /work/tools/arm-2012.09/bin/../lib/gcc/arm-none-eabi/4.7.2/libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 /work/tools/arm-2012.09/bin/../lib/gcc/arm-none-eabi/4.7.2/libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 /work/tools/arm-2012.09/bin/../lib/gcc/arm-none-eabi/4.7.2/libgcc.a(_dvmd_tls.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+sram0            0x00200000         0x00004000         w !xr
+sram1            0x00300000         0x00004000         w !xr
+sdram            0x20000000         0x04000000         w !xr
+ebi_cs0          0x10000000         0x10000000         xr
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD obj/board_cstartup.o
+LOAD obj/cp15_asm.o
+LOAD obj/main.o
+LOAD obj/pio.o
+LOAD obj/aic.o
+LOAD obj/board_memories.o
+LOAD obj/board_lowlevel.o
+LOAD obj/stdio.o
+LOAD obj/string.o
+LOAD obj/dbgu.o
+LOAD obj/trace.o
+LOAD obj/util.o
+LOAD obj/BootNor.o
+LOAD obj/cp15.o
+START GROUP
+LOAD /work/tools/arm-2012.09/bin/../lib/gcc/arm-none-eabi/4.7.2/libgcc.a
+LOAD /work/tools/arm-2012.09/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/libc.a
+END GROUP
+
+.prerelocate    0x00200000      0x498 load address 0x10001370
+                0x00200000                . = ALIGN (0x4)
+                0x00200000                _sprerelocate = .
+ *board_lowlevel.o(.text*)
+ .text.defaultSpuriousHandler
+                0x00200000        0x4 obj/board_lowlevel.o
+                0x00200000                defaultSpuriousHandler
+ .text.defaultFiqHandler
+                0x00200004        0x4 obj/board_lowlevel.o
+                0x00200004                defaultFiqHandler
+ .text.defaultIrqHandler
+                0x00200008        0x4 obj/board_lowlevel.o
+                0x00200008                defaultIrqHandler
+ .text.LowLevelInit
+                0x0020000c      0x1b0 obj/board_lowlevel.o
+                0x0020000c                LowLevelInit
+ *board_memories.o(.text*)
+ .text.BOARD_RemapRam
+                0x002001bc       0x10 obj/board_memories.o
+                0x002001bc                BOARD_RemapRam
+ .text.BOARD_ConfigureNorFlash
+                0x002001cc      0x154 obj/board_memories.o
+                0x002001cc                BOARD_ConfigureNorFlash
+ .text.BOARD_ConfigureSdram
+                0x00200320      0x178 obj/board_memories.o
+                0x00200320                BOARD_ConfigureSdram
+                0x00200498                . = ALIGN (0x4)
+                0x00200498                _eprerelocate = .
+
+.fixed          0x10000000     0x1370
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _sfixed = .
+ *(.text*)
+ .text          0x10000000       0xd0 obj/board_cstartup.o
+                0x10000000                entry
+ .text          0x100000d0       0x40 obj/cp15_asm.o
+                0x100000d0                _readControlRegister
+                0x100000dc                _writeControlRegister
+                0x100000e4                _waitForInterrupt
+                0x100000f0                _writeTTB
+                0x100000f8                _writeDomain
+                0x10000100                _writeITLBLockdown
+                0x10000108                _prefetchICacheLine
+ .text.main     0x10000110      0x180 obj/main.o
+                0x10000110                main
+ .text.PIO_Configure
+                0x10000290      0x120 obj/pio.o
+                0x10000290                PIO_Configure
+ .text.PutUnsignedInt
+                0x100003b0       0xa4 obj/stdio.o
+                0x100003b0                PutUnsignedInt
+ .text.PutSignedInt
+                0x10000454      0x100 obj/stdio.o
+                0x10000454                PutSignedInt
+ .text.PutHexa  0x10000554       0xa4 obj/stdio.o
+                0x10000554                PutHexa
+ .text.vsnprintf
+                0x100005f8      0x290 obj/stdio.o
+                0x100005f8                vsnprintf
+ .text.vsprintf
+                0x10000888       0x28 obj/stdio.o
+                0x10000888                vsprintf
+ .text.puts     0x100008b0       0x2c obj/stdio.o
+                0x100008b0                puts
+ .text.vfprintf
+                0x100008dc       0xb0 obj/stdio.o
+                0x100008dc                vfprintf
+ .text.vprintf  0x1000098c       0x38 obj/stdio.o
+                0x1000098c                vprintf
+ .text.printf   0x100009c4       0x3c obj/stdio.o
+                0x100009c4                printf
+ .text.memcpy   0x10000a00       0x9c obj/string.o
+                0x10000a00                memcpy
+ .text.DBGU_Configure
+                0x10000a9c       0x58 obj/dbgu.o
+                0x10000a9c                DBGU_Configure
+ .text.fputs    0x10000af4       0x84 obj/dbgu.o
+                0x10000af4                fputs
+ .text.putchar  0x10000b78       0x2c obj/dbgu.o
+                0x10000b78                putchar
+ .text.PrintChar
+                0x10000ba4       0x44 obj/util.o
+ .text.UTIL_DbguDumpMemory
+                0x10000be8      0x1f0 obj/util.o
+                0x10000be8                UTIL_DbguDumpMemory
+ .text.BOOT_NOR_CopyBin
+                0x10000dd8       0x80 obj/BootNor.o
+                0x10000dd8                BOOT_NOR_CopyBin
+ .text.CP15_Enable_I_Cache
+                0x10000e58       0x68 obj/cp15.o
+                0x10000e58                CP15_Enable_I_Cache
+ .text          0x10000ec0      0x114 /work/tools/arm-2012.09/bin/../lib/gcc/arm-none-eabi/4.7.2/libgcc.a(_udivsi3.o)
+                0x10000ec0                __udivsi3
+                0x10000ec0                __aeabi_uidiv
+                0x10000fb4                __aeabi_uidivmod
+ .text          0x10000fd4        0x4 /work/tools/arm-2012.09/bin/../lib/gcc/arm-none-eabi/4.7.2/libgcc.a(_dvmd_tls.o)
+                0x10000fd4                __aeabi_ldiv0
+                0x10000fd4                __aeabi_idiv0
+ *(.rodata*)
+ .rodata        0x10000fd8       0x20 obj/main.o
+                0x10000fe4                tabDesc
+ .rodata.str1.4
+                0x10000ff8       0xbd obj/main.o
+                                 0xc8 (size before relaxing)
+ *fill*         0x100010b5        0x3 
+ .rodata        0x100010b8       0x18 obj/board_memories.o
+ .rodata.str1.4
+                0x100010d0       0x24 obj/stdio.o
+ .rodata.str1.4
+                0x100010f4       0xc7 obj/util.o
+                                 0xd0 (size before relaxing)
+ *fill*         0x100011bb        0x1 
+ .rodata.str1.4
+                0x100011bc       0x35 obj/BootNor.o
+                                 0x38 (size before relaxing)
+ *fill*         0x100011f1        0x3 
+ .rodata.str1.4
+                0x100011f4      0x17c obj/cp15.o
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+                0x10001370                . = ALIGN (0x4)
+                0x10001370                _efixed = .
+
+.vfp11_veneer   0x10001370        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x10001370        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x10001370        0x0
+ .iplt          0x00000000        0x0 obj/board_cstartup.o
+
+.igot.plt       0x10001370        0x0
+ .igot.plt      0x00000000        0x0 obj/board_cstartup.o
+
+.rel.dyn        0x10001370        0x0
+ .rel.iplt      0x00000000        0x0 obj/board_cstartup.o
+
+.postrelocate   0x00200498      0x478 load address 0x10001808
+                0x00200498                . = ALIGN (0x4)
+                0x00200498                _spostrelocate = .
+ *(.vectors)
+ .vectors       0x00200498       0x6c obj/board_cstartup.o
+ *(.ramfunc)
+ *(.data)
+ *fill*         0x00200504        0x4 
+ .data          0x00200508      0x408 obj/stdio.o
+                0x00200508                _impure_ptr
+                0x00200510                r
+                0x00200910                . = ALIGN (0x4)
+                0x00200910                _epostrelocate = .
+
+.bss            0x00300000        0x0
+                0x00300000                _szero = .
+ *(.bss)
+                0x00300000                . = ALIGN (0x4)
+                0x00300000                _ezero = .
+                0x00301000                _sstack = 0x301000
+                0x00300000                end = .
+OUTPUT(bin/boot-at91sam9g20-ek-norflash2sdram.elf elf32-littlearm)
+
+.ARM.attributes
+                0x00000000       0x2b
+ .ARM.attributes
+                0x00000000       0x14 obj/board_cstartup.o
+ .ARM.attributes
+                0x00000014       0x14 obj/cp15_asm.o
+ .ARM.attributes
+                0x00000028       0x2e obj/main.o
+ .ARM.attributes
+                0x00000056       0x2e obj/pio.o
+ .ARM.attributes
+                0x00000084       0x2e obj/board_memories.o
+ .ARM.attributes
+                0x000000b2       0x2e obj/board_lowlevel.o
+ .ARM.attributes
+                0x000000e0       0x2e obj/stdio.o
+ .ARM.attributes
+                0x0000010e       0x2e obj/string.o
+ .ARM.attributes
+                0x0000013c       0x2e obj/dbgu.o
+ .ARM.attributes
+                0x0000016a       0x2e obj/util.o
+ .ARM.attributes
+                0x00000198       0x2e obj/BootNor.o
+ .ARM.attributes
+                0x000001c6       0x2e obj/cp15.o
+ .ARM.attributes
+                0x000001f4       0x18 /work/tools/arm-2012.09/bin/../lib/gcc/arm-none-eabi/4.7.2/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x0000020c       0x18 /work/tools/arm-2012.09/bin/../lib/gcc/arm-none-eabi/4.7.2/libgcc.a(_dvmd_tls.o)
+
+.comment        0x00000000      0x1a4
+ .comment       0x00000000       0x2a obj/main.o
+ .comment       0x0000002a       0x2a obj/pio.o
+ .comment       0x00000054       0x2a obj/board_memories.o
+ .comment       0x0000007e       0x2a obj/board_lowlevel.o
+ .comment       0x000000a8       0x2a obj/stdio.o
+ .comment       0x000000d2       0x2a obj/string.o
+ .comment       0x000000fc       0x2a obj/dbgu.o
+ .comment       0x00000126       0x2a obj/util.o
+ .comment       0x00000150       0x2a obj/BootNor.o
+ .comment       0x0000017a       0x2a obj/cp15.o
+
+.debug_line     0x00000000     0x10bd
+ .debug_line    0x00000000       0xb1 obj/board_cstartup.o
+ .debug_line    0x000000b1       0x6d obj/cp15_asm.o
+ .debug_line    0x0000011e       0xdf obj/main.o
+ .debug_line    0x000001fd      0x155 obj/pio.o
+ .debug_line    0x00000352      0x276 obj/board_memories.o
+ .debug_line    0x000005c8      0x104 obj/board_lowlevel.o
+ .debug_line    0x000006cc      0x377 obj/stdio.o
+ .debug_line    0x00000a43      0x162 obj/string.o
+ .debug_line    0x00000ba5      0x289 obj/dbgu.o
+ .debug_line    0x00000e2e      0x123 obj/util.o
+ .debug_line    0x00000f51       0x59 obj/BootNor.o
+ .debug_line    0x00000faa      0x113 obj/cp15.o
+
+.debug_info     0x00000000     0x4046
+ .debug_info    0x00000000       0x94 obj/board_cstartup.o
+ .debug_info    0x00000094       0x8d obj/cp15_asm.o
+ .debug_info    0x00000121      0x50a obj/main.o
+ .debug_info    0x0000062b      0x6fa obj/pio.o
+ .debug_info    0x00000d25      0xa26 obj/board_memories.o
+ .debug_info    0x0000174b      0x469 obj/board_lowlevel.o
+ .debug_info    0x00001bb4      0xf6b obj/stdio.o
+ .debug_info    0x00002b1f      0x35a obj/string.o
+ .debug_info    0x00002e79      0xcaa obj/dbgu.o
+ .debug_info    0x00003b23      0x214 obj/util.o
+ .debug_info    0x00003d37      0x12a obj/BootNor.o
+ .debug_info    0x00003e61      0x1e5 obj/cp15.o
+
+.debug_abbrev   0x00000000      0xe8a
+ .debug_abbrev  0x00000000       0x12 obj/board_cstartup.o
+ .debug_abbrev  0x00000012       0x14 obj/cp15_asm.o
+ .debug_abbrev  0x00000026      0x195 obj/main.o
+ .debug_abbrev  0x000001bb      0x1c2 obj/pio.o
+ .debug_abbrev  0x0000037d      0x14f obj/board_memories.o
+ .debug_abbrev  0x000004cc       0xb8 obj/board_lowlevel.o
+ .debug_abbrev  0x00000584      0x325 obj/stdio.o
+ .debug_abbrev  0x000008a9      0x10e obj/string.o
+ .debug_abbrev  0x000009b7      0x29f obj/dbgu.o
+ .debug_abbrev  0x00000c56       0xe8 obj/util.o
+ .debug_abbrev  0x00000d3e       0xa7 obj/BootNor.o
+ .debug_abbrev  0x00000de5       0xa5 obj/cp15.o
+
+.debug_aranges  0x00000000      0x330
+ .debug_aranges
+                0x00000000       0x28 obj/board_cstartup.o
+ .debug_aranges
+                0x00000028       0x20 obj/cp15_asm.o
+ .debug_aranges
+                0x00000048       0x20 obj/main.o
+ .debug_aranges
+                0x00000068       0x48 obj/pio.o
+ .debug_aranges
+                0x000000b0       0x58 obj/board_memories.o
+ .debug_aranges
+                0x00000108       0x38 obj/board_lowlevel.o
+ .debug_aranges
+                0x00000140       0x88 obj/stdio.o
+ .debug_aranges
+                0x000001c8       0x58 obj/string.o
+ .debug_aranges
+                0x00000220       0x50 obj/dbgu.o
+ .debug_aranges
+                0x00000270       0x40 obj/util.o
+ .debug_aranges
+                0x000002b0       0x20 obj/BootNor.o
+ .debug_aranges
+                0x000002d0       0x60 obj/cp15.o
+
+.debug_ranges   0x00000000      0x390
+ .debug_ranges  0x00000000       0x20 obj/board_cstartup.o
+ .debug_ranges  0x00000020       0x18 obj/main.o
+ .debug_ranges  0x00000038       0x58 obj/pio.o
+ .debug_ranges  0x00000090       0x50 obj/board_memories.o
+ .debug_ranges  0x000000e0       0x30 obj/board_lowlevel.o
+ .debug_ranges  0x00000110      0x100 obj/stdio.o
+ .debug_ranges  0x00000210       0x50 obj/string.o
+ .debug_ranges  0x00000260       0x88 obj/dbgu.o
+ .debug_ranges  0x000002e8       0x38 obj/util.o
+ .debug_ranges  0x00000320       0x18 obj/BootNor.o
+ .debug_ranges  0x00000338       0x58 obj/cp15.o
+
+.debug_frame    0x00000000      0x6bc
+ .debug_frame   0x00000000       0x2c obj/main.o
+ .debug_frame   0x0000002c       0x7c obj/pio.o
+ .debug_frame   0x000000a8       0xd4 obj/board_memories.o
+ .debug_frame   0x0000017c       0x58 obj/board_lowlevel.o
+ .debug_frame   0x000001d4      0x1b0 obj/stdio.o
+ .debug_frame   0x00000384       0xb0 obj/string.o
+ .debug_frame   0x00000434       0x98 obj/dbgu.o
+ .debug_frame   0x000004cc       0xb8 obj/util.o
+ .debug_frame   0x00000584       0x30 obj/BootNor.o
+ .debug_frame   0x000005b4       0xe8 obj/cp15.o
+ .debug_frame   0x0000069c       0x20 /work/tools/arm-2012.09/bin/../lib/gcc/arm-none-eabi/4.7.2/libgcc.a(_udivsi3.o)
+
+.debug_loc      0x00000000     0x13ab
+ .debug_loc     0x00000000       0x1f obj/main.o
+ .debug_loc     0x0000001f       0x81 obj/pio.o
+ .debug_loc     0x000000a0      0x23c obj/board_memories.o
+ .debug_loc     0x000002dc       0x3d obj/board_lowlevel.o
+ .debug_loc     0x00000319      0x7ec obj/stdio.o
+ .debug_loc     0x00000b05      0x336 obj/string.o
+ .debug_loc     0x00000e3b       0xfa obj/dbgu.o
+ .debug_loc     0x00000f35      0x262 obj/util.o
+ .debug_loc     0x00001197       0x67 obj/BootNor.o
+ .debug_loc     0x000011fe      0x1ad obj/cp15.o
+
+.debug_pubnames
+                0x00000000      0x53c
+ .debug_pubnames
+                0x00000000       0x27 obj/main.o
+ .debug_pubnames
+                0x00000027       0x75 obj/pio.o
+ .debug_pubnames
+                0x0000009c       0xeb obj/board_memories.o
+ .debug_pubnames
+                0x00000187       0x6a obj/board_lowlevel.o
+ .debug_pubnames
+                0x000001f1       0xdf obj/stdio.o
+ .debug_pubnames
+                0x000002d0       0x6d obj/string.o
+ .debug_pubnames
+                0x0000033d       0x7a obj/dbgu.o
+ .debug_pubnames
+                0x000003b7       0x77 obj/util.o
+ .debug_pubnames
+                0x0000042e       0x27 obj/BootNor.o
+ .debug_pubnames
+                0x00000455       0xe7 obj/cp15.o
+
+.debug_str      0x00000000     0x1277
+ .debug_str     0x00000000      0x289 obj/main.o
+                                0x2de (size before relaxing)
+ .debug_str     0x00000289      0x17c obj/pio.o
+                                0x34b (size before relaxing)
+ .debug_str     0x00000405      0x483 obj/board_memories.o
+                                0x65b (size before relaxing)
+ .debug_str     0x00000888      0x1b1 obj/board_lowlevel.o
+                                0x2ca (size before relaxing)
+ .debug_str     0x00000a39      0x474 obj/stdio.o
+                                0x598 (size before relaxing)
+ .debug_str     0x00000ead       0xdf obj/string.o
+                                0x1db (size before relaxing)
+ .debug_str     0x00000f8c      0x157 obj/dbgu.o
+                                0x5f0 (size before relaxing)
+ .debug_str     0x000010e3       0x98 obj/util.o
+                                0x17d (size before relaxing)
+ .debug_str     0x0000117b       0x20 obj/BootNor.o
+                                0x122 (size before relaxing)
+ .debug_str     0x0000119b       0xdc obj/cp15.o
+                                0x1ae (size before relaxing)
+
+Cross Reference Table
+
+Symbol                                            File
+AIC_ConfigureIT                                   obj/aic.o
+AIC_DisableIT                                     obj/aic.o
+AIC_EnableIT                                      obj/aic.o
+BOARD_ConfigureNandFlash                          obj/board_memories.o
+BOARD_ConfigureNandFlash48MHz                     obj/board_memories.o
+BOARD_ConfigureNorFlash                           obj/board_memories.o
+                                                  obj/board_lowlevel.o
+BOARD_ConfigureNorFlash48MHz                      obj/board_memories.o
+BOARD_ConfigureSdram                              obj/board_memories.o
+                                                  obj/main.o
+BOARD_ConfigureSdram48MHz                         obj/board_memories.o
+BOARD_RemapRam                                    obj/board_memories.o
+                                                  obj/board_lowlevel.o
+BOARD_RemapRom                                    obj/board_memories.o
+BOOT_NOR_CopyBin                                  obj/BootNor.o
+                                                  obj/main.o
+CP15_DisableMMU                                   obj/cp15.o
+CP15_Disable_D_Cache                              obj/cp15.o
+CP15_Disable_I_Cache                              obj/cp15.o
+CP15_EnableMMU                                    obj/cp15.o
+CP15_Enable_D_Cache                               obj/cp15.o
+CP15_Enable_I_Cache                               obj/cp15.o
+                                                  obj/main.o
+CP15_Is_DCacheEnabled                             obj/cp15.o
+CP15_Is_I_CacheEnabled                            obj/cp15.o
+CP15_Is_MMUEnabled                                obj/cp15.o
+DBGU_Configure                                    obj/dbgu.o
+                                                  obj/main.o
+DBGU_GetChar                                      obj/dbgu.o
+                                                  obj/util.o
+DBGU_IsRxReady                                    obj/dbgu.o
+DBGU_PutChar                                      obj/dbgu.o
+                                                  obj/util.o
+LowLevelInit                                      obj/board_lowlevel.o
+                                                  obj/board_cstartup.o
+PIO_Clear                                         obj/pio.o
+PIO_Configure                                     obj/pio.o
+                                                  obj/board_memories.o
+                                                  obj/main.o
+PIO_Get                                           obj/pio.o
+PIO_GetISR                                        obj/pio.o
+PIO_GetOutputDataStatus                           obj/pio.o
+PIO_Set                                           obj/pio.o
+PutChar                                           obj/stdio.o
+PutHexa                                           obj/stdio.o
+PutSignedInt                                      obj/stdio.o
+PutString                                         obj/stdio.o
+PutUnsignedInt                                    obj/stdio.o
+UTIL_DbguDumpMemory                               obj/util.o
+                                                  obj/main.o
+UTIL_DbguGetHexa32                                obj/util.o
+UTIL_DbguGetInteger                               obj/util.o
+UTIL_DbguGetIntegerMinMax                         obj/util.o
+__aeabi_idiv0                                     /work/tools/arm-2012.09/bin/../lib/gcc/arm-none-eabi/4.7.2/libgcc.a(_dvmd_tls.o)
+                                                  /work/tools/arm-2012.09/bin/../lib/gcc/arm-none-eabi/4.7.2/libgcc.a(_udivsi3.o)
+__aeabi_ldiv0                                     /work/tools/arm-2012.09/bin/../lib/gcc/arm-none-eabi/4.7.2/libgcc.a(_dvmd_tls.o)
+__aeabi_uidiv                                     /work/tools/arm-2012.09/bin/../lib/gcc/arm-none-eabi/4.7.2/libgcc.a(_udivsi3.o)
+                                                  obj/dbgu.o
+__aeabi_uidivmod                                  /work/tools/arm-2012.09/bin/../lib/gcc/arm-none-eabi/4.7.2/libgcc.a(_udivsi3.o)
+__udivsi3                                         /work/tools/arm-2012.09/bin/../lib/gcc/arm-none-eabi/4.7.2/libgcc.a(_udivsi3.o)
+_efixed                                           obj/board_cstartup.o
+_epostrelocate                                    obj/board_cstartup.o
+_eprerelocate                                     obj/board_cstartup.o
+_ezero                                            obj/board_cstartup.o
+_impure_ptr                                       obj/stdio.o
+                                                  obj/dbgu.o
+_prefetchICacheLine                               obj/cp15_asm.o
+_readControlRegister                              obj/cp15_asm.o
+                                                  obj/cp15.o
+_spostrelocate                                    obj/board_cstartup.o
+_sprerelocate                                     obj/board_cstartup.o
+_sstack                                           obj/board_cstartup.o
+_szero                                            obj/board_cstartup.o
+_waitForInterrupt                                 obj/cp15_asm.o
+_writeControlRegister                             obj/cp15_asm.o
+                                                  obj/cp15.o
+_writeDomain                                      obj/cp15_asm.o
+_writeITLBLockdown                                obj/cp15_asm.o
+_writeTTB                                         obj/cp15_asm.o
+defaultFiqHandler                                 obj/board_lowlevel.o
+defaultIrqHandler                                 obj/board_lowlevel.o
+defaultSpuriousHandler                            obj/board_lowlevel.o
+entry                                             obj/board_cstartup.o
+fprintf                                           obj/stdio.o
+fputc                                             obj/dbgu.o
+fputs                                             obj/dbgu.o
+                                                  obj/stdio.o
+main                                              obj/main.o
+                                                  obj/board_cstartup.o
+memcpy                                            obj/string.o
+                                                  obj/BootNor.o
+memset                                            obj/string.o
+printf                                            obj/stdio.o
+                                                  obj/cp15.o
+                                                  obj/BootNor.o
+                                                  obj/util.o
+                                                  obj/main.o
+putchar                                           obj/dbgu.o
+                                                  obj/util.o
+puts                                              obj/stdio.o
+                                                  obj/util.o
+r                                                 obj/stdio.o
+snprintf                                          obj/stdio.o
+sprintf                                           obj/stdio.o
+strchr                                            obj/string.o
+strcpy                                            obj/string.o
+strlen                                            obj/string.o
+strncmp                                           obj/string.o
+strncpy                                           obj/string.o
+strrchr                                           obj/string.o
+tabDesc                                           obj/main.o
+vfprintf                                          obj/stdio.o
+vprintf                                           obj/stdio.o
+vsnprintf                                         obj/stdio.o
+vsprintf                                          obj/stdio.o
