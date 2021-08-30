@@ -1,0 +1,35 @@
+for dir in tools examples/standalone examples/api arch/arm/cpu/arm926ejs /home/djc001/work/uboot/uboot-src/u-boot-2010.06-rc1/arch/arm/cpu/arm926ejs/ ; do \
+			make -C $dir _depend ; done
+make[1]: Entering directory `/home/djc001/work/uboot/uboot-src/u-boot-2010.06-rc1/tools'
+make[1]: Nothing to be done for `_depend'.
+make[1]: Leaving directory `/home/djc001/work/uboot/uboot-src/u-boot-2010.06-rc1/tools'
+make[1]: Entering directory `/home/djc001/work/uboot/uboot-src/u-boot-2010.06-rc1/examples/standalone'
+make[1]: Nothing to be done for `_depend'.
+make[1]: Leaving directory `/home/djc001/work/uboot/uboot-src/u-boot-2010.06-rc1/examples/standalone'
+make[1]: Entering directory `/home/djc001/work/uboot/uboot-src/u-boot-2010.06-rc1/examples/api'
+make[1]: Nothing to be done for `_depend'.
+make[1]: Leaving directory `/home/djc001/work/uboot/uboot-src/u-boot-2010.06-rc1/examples/api'
+make[1]: Entering directory `/home/djc001/work/uboot/uboot-src/u-boot-2010.06-rc1/arch/arm/cpu/arm926ejs'
+make[1]: Nothing to be done for `_depend'.
+make[1]: Leaving directory `/home/djc001/work/uboot/uboot-src/u-boot-2010.06-rc1/arch/arm/cpu/arm926ejs'
+make[1]: Entering directory `/home/djc001/work/uboot/uboot-src/u-boot-2010.06-rc1/arch/arm/cpu/arm926ejs'
+make[1]: Nothing to be done for `_depend'.
+make[1]: Leaving directory `/home/djc001/work/uboot/uboot-src/u-boot-2010.06-rc1/arch/arm/cpu/arm926ejs'
+make -C tools all
+make[1]: Entering directory `/home/djc001/work/uboot/uboot-src/u-boot-2010.06-rc1/tools'
+make[1]: Leaving directory `/home/djc001/work/uboot/uboot-src/u-boot-2010.06-rc1/tools'
+make -C examples/standalone all
+make[1]: Entering directory `/home/djc001/work/uboot/uboot-src/u-boot-2010.06-rc1/examples/standalone'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/home/djc001/work/uboot/uboot-src/u-boot-2010.06-rc1/examples/standalone'
+make -C examples/api all
+make[1]: Entering directory `/home/djc001/work/uboot/uboot-src/u-boot-2010.06-rc1/examples/api'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/home/djc001/work/uboot/uboot-src/u-boot-2010.06-rc1/examples/api'
+make -C arch/arm/cpu/arm926ejs start.o
+make[1]: Entering directory `/home/djc001/work/uboot/uboot-src/u-boot-2010.06-rc1/arch/arm/cpu/arm926ejs'
+make[1]: `start.o' is up to date.
+make[1]: Leaving directory `/home/djc001/work/uboot/uboot-src/u-boot-2010.06-rc1/arch/arm/cpu/arm926ejs'
+make -C lib/
+make[1]: Entering directory `/home/djc001/work/uboot/uboot-src/u-boot-2010.06-rc1/lib'
+make[1]: Leaving directory `/home/djc001/work/uboot/uboot-src/u-boot-2010.06-rc1/lib'

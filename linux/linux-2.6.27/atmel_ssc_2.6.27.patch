@@ -1,0 +1,26 @@
+Index: sound/soc/atmel/atmel_ssc_dai.c
+===================================================================
+--- a/sound/soc/atmel/atmel_ssc_dai.c	(revision 11520)
++++ b/sound/soc/atmel/atmel_ssc_dai.c	(working copy)
+@@ -415,7 +415,7 @@ static int atmel_ssc_hw_params(struct sn
+ 			| SSC_BF(RCMR_STTDLY, START_DELAY)
+ 			| SSC_BF(RCMR_START, SSC_START_FALLING_RF)
+ 			| SSC_BF(RCMR_CKI, SSC_CKI_RISING)
+-			| SSC_BF(RCMR_CKO, SSC_CKO_NONE)
++			| SSC_BF(RCMR_CKO, SSC_CKO_CONTINUOUS)
+ 			| SSC_BF(RCMR_CKS, SSC_CKS_DIV);
+ 
+ 		rfmr =	  SSC_BF(RFMR_FSEDGE, SSC_FSEDGE_POSITIVE)
+Index: arch/arm/mach-at91/board-sam9g20ek.c
+===================================================================
+--- a/arch/arm/mach-at91/board-sam9g20ek.c	(revision 11520)
++++ b/arch/arm/mach-at91/board-sam9g20ek.c	(working copy)
+@@ -313,7 +313,7 @@ static void __init ek_board_init(void)
+ 	/* set clock for the wolfson */
+ 	wm8731_set_clk();
+ 	/* SSC */
+-	at91_add_device_ssc(AT91SAM9260_ID_SSC, ATMEL_SSC_TX);
++	at91_add_device_ssc(AT91SAM9260_ID_SSC, ATMEL_SSC_TX | ATMEL_SSC_RX);
+ 	/* I2C */
+ 	at91_add_device_i2c(NULL, 0);
+ 	/* LEDs */
